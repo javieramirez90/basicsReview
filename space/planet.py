@@ -2,10 +2,10 @@ class Planet:
   
   shape = 'round'
   
-  def __init__(self, name, radius, system):
+  def __init__(self, name, radius, gravity, system):
     self.name = name
     self.radius = radius
-    self.gravity = 5.5
+    self.gravity = gravity
     self.system = system
     
   def orbit(self):
